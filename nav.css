@@ -1,0 +1,36 @@
+body{
+margin: 0;
+}
+
+header{
+    background-color: rgb(78, 118, 119);
+}
+
+.navbar{
+    width: 80%;
+    margin: 0 auto;
+}
+
+header::after{
+    content: '';
+    display: table;
+    clear: both;   
+}
+
+
+
+nav{
+    float: right;
+}
+
+nav ul{
+    margin: 0;
+    padding:0;
+    list-style: None;
+    }
+
+    
+nav li{
+    display: inline-block;
+    margin-left:70px;    
+}
